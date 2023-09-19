@@ -11,3 +11,20 @@ The dataset comprises two primary columns:
 ## Requirements
 Ensure you have R installed and the necessary R packages. You can install the required packages using the provided `requirements.txt` file. 
 
+
+## Methodology
+
+1. **Data Loading and Cleaning**: Imported the data and handled missing values.
+2. **Exploratory Data Analysis**: Visualized the USD/EUR exchange rate over time.
+3. **Time Series Decomposition**: Decomposed the time series into its trend, seasonal, and residual components.
+4. **Model Building**: Used the ARIMA model to capture patterns in the historical data and make forecasts.
+5. **Model Validation**: Validated the model's performance on a test set.
+6. **Forecasting**: Forecasted the exchange rate for the next quarter.
+
+## Results
+The ARIMA model was able to predict the USD/EUR exchange rate with reasonable accuracy. Detailed results and visualizations can be found in the R scripts and Jupyter notebooks.
+
+## License
+This project is open-source and available to anyone. Please reference this repository if you use any part of the analysis or data.
+
+
