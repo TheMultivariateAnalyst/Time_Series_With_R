@@ -1,0 +1,8 @@
+# R packages required for the project
+
+ggplot2
+forecast
+statsmodels
+pmdarima
+sklearn
+pandas
